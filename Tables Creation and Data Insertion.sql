@@ -1,3 +1,7 @@
+Create Database LMT_University
+
+Create Schema enroll
+
 Drop table if exists enroll.Address;
 Create table [LMT_University].[enroll].Address(
 	AddressID int IDENTITY(1,1) PRIMARY KEY not null,
@@ -44,9 +48,9 @@ Create table [LMT_University].enroll.Student(
 
 INSERT INTO [enroll].[Address](StreetAddress,City,State,PostalCode,Country)
 Values
-('5 Schurz Lane', 'Grybów', NULL, '33-330', 'Poland'),
+('5 Schurz Lane', 'GrybÃ³w', NULL, '33-330', 'Poland'),
 ('628 Waubesa Drive', 'Jinsheng', NULL, NULL,'China'),
-('44135 Northfield Way', 'Nowy Dwór Mazowiecki', NULL, '05-160','Poland'),
+('44135 Northfield Way', 'Nowy DwÃ³r Mazowiecki', NULL, '05-160','Poland'),
 ('335 Bellgrove Road', 'Gaoqiao', NULL, NULL,'China'),
 ('28 Victoria Junction', 'Bukovek', NULL, '739 84','Czech Republic'),
 ('6 Stuart Road', 'Wushan', NULL, NULL,'China'),
@@ -63,15 +67,15 @@ Values
 ('33942 Eagle Crest Trail', 'Oliveiras', 'Porto', '4745-235','Portugal'),
 ('20791 Hermina Way', 'B?o L?c', NULL, NULL,'Vietnam'),
 ('86 Lake View Way', 'Marsa Alam', NULL, NULL,'Egypt'),
-('19732 Burning Wood Parkway', 'Piteå', 'Norrbotten', '944 73','Sweden'),
+('19732 Burning Wood Parkway', 'PiteÃ¥', 'Norrbotten', '944 73','Sweden'),
 ('9320 Oak Valley Road', 'Rathangani', NULL, 'A45','Ireland'),
 ('2638 Waubesa Circle', 'Honda', NULL, '732048','Columbia'),
 ('6999 Monument Center', 'Cortes', NULL, '6341','Philippines'),
 ('1 Warbler Hill', 'Proletar', NULL,NULL,'Tajikistan'),
 ('1311 Crowley Street', 'Baghlan', NULL, NULL,'Afghanistan'),
-('19 Walton Way', 'Öldziyt', NULL, NULL,'Mongolia'),
-('1 Glacier Hill', 'Cergy-Pontoise', 'Île-de-France', '95304','France'),
-('5094 Gateway Way', 'Živinice', NULL, NULL,'Bosnia and Herzegovina'),
+('19 Walton Way', 'Ã–ldziyt', NULL, NULL,'Mongolia'),
+('1 Glacier Hill', 'Cergy-Pontoise', 'ÃŽle-de-France', '95304','France'),
+('5094 Gateway Way', 'Å½ivinice', NULL, NULL,'Bosnia and Herzegovina'),
 ('2 Roth Pass', 'Tuatuka', NULL, NULL,'Indonesia'),
 ('89531 Northview Road', 'Ganyi', NULL, NULL,'China');
 
